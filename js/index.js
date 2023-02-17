@@ -43,7 +43,7 @@ var remainingCounter = 100;
 // ^=====> Regular Expressions
 
 var titleRegex = /^\w{3,}(\s\w+)*$/;
-var descriptionRegex = /^(?=.{5,100}$)\w{1,}(\s\w+)*$/;
+var descriptionRegex = /^(?=.{5,100}$)\w{1,}(\s\w*)*$/;
 
 if (localStorage.getItem("tasks")) {
   tasks = JSON.parse(localStorage.getItem("tasks"));
