@@ -1,6 +1,3 @@
-// [1]- Interview Questions
-// [3]- Save Background Color of task container when changed
-
 // &=========> HTML Elements
 
 var root = document.querySelector(":root");
